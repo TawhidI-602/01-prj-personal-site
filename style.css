@@ -1,1 +1,130 @@
-/* Add you CSS here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f9f9f9;
+}
+
+/* HERO */
+.hero {
+    background-color: #003da7;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Links in the navbar */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+/* Change link color when hovering over it */
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+/* LOGO Bigger Please*/
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    /* Use Audiowide font for the title */
+    /*      Designed by Astigmatic      */
+    font-family: 'Audiowide', sans-serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    opacity: 0.85;
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+}
+
+/* ABOUT */
+.about p {
+    max-width: 700px;
+}
+
+/* SKILLS */
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skills li {
+    background: #eaeaea;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.skill-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+    filter: brightness(0.3);
+}
+
+/* PROJECTS */
+.projects {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.project-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* CONTACT */
+.contact p {
+    margin-bottom: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #003da7;
+    color: white;
+    margin-top: 4rem;
+}
