@@ -1,6 +1,6 @@
 const GITHUB_USERNAME = "TawhidI-602";
 
-const EXCLUDED_REPOS = ["01-prj-personal-site"];
+const EXCLUDED_REPOS = ["portfolio"];
 
 const LANG_COLORS = {
     "HTML": "#e34c26",
